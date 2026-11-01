@@ -1,0 +1,14 @@
+[33m828413d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mclean-history[m[33m)[m Experimental Test
+ .gitignore                                         |  4 [32m+[m
+ LICENSE.txt                                        |  2 [32m+[m
+ build.gradle                                       | 99 [32m++++++++++++++++++++++[m
+ gradle.properties                                  | 13 [32m+++[m
+ gradle/wrapper/gradle-wrapper.properties           |  1 [32m+[m
+ settings.gradle                                    |  9 [32m++[m
+ .../client/GlfencesyncFixClient.java               | 10 [32m+++[m
+ .../client/mixin/GlCommandEncoderMixin.java        | 23 [32m+++++[m
+ .../resources/glfencesync-fix.client.mixins.json   | 15 [32m++++[m
+ .../com/sol/glfencesyncFix/GlfencesyncFix.java     | 10 [32m+++[m
+ src/main/resources/fabric.mod.json                 | 33 [32m++++++++[m
+ src/main/resources/glfencesync-fix.mixins.json     | 14 [32m+++[m
+ 12 files changed, 233 insertions(+)
