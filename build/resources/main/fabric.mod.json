@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "glfencesync-fix",
-  "version": "1-release",
+  "version": "1.0.0-alpha",
 
   "name": "glFenceSync-Fix",
   "description": "",
