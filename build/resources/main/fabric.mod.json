@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "glfencesync-fix",
+  "version": "1-release",
+
+  "name": "glFenceSync-Fix",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/glfencesync-fix/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.sol.glfencesyncFix.client.GlfencesyncFixClient"],
+    "main": ["com.sol.glfencesyncFix.GlfencesyncFix"]
+  },
+
+  "mixins": [
+    "glfencesync-fix.mixins.json"
+    ,{
+      "config": "glfencesync-fix.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "fabric-api": "*",
+    "minecraft": "26.2"
+  }
+}
